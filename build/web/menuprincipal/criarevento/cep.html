@@ -1,0 +1,47 @@
+<!-- 
+    Author     : guilherme campos 11241102449 enzo romao 11241105170
+--!>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html data-bs-theme="auto">
+    <head>
+        <title>Criar Evento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../style/geral.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            html[data-bs-theme="dark"] body {
+  background-color: #581d66 !important;
+  color: white !important;
+}
+
+html[data-bs-theme="light"] body {
+  background-color: white !important;
+  color: black !important;
+}
+        </style>
+    </head>
+
+<body>
+    <div class="container">
+        <h2>Digite o CEP do local do evento</h2>
+        <form method="post" action="index.jsp">
+            CEP: <input type="text" name="cep" maxlength="8" pattern="\d{8}" required>
+            <div class="buttons">               
+                <button type="submit" class="submit-btn">Próximo</button>
+            </div>
+        </form>
+        <script>
+    /*codigo para receber o comando do botao no index principal */
+            window.addEventListener("message", event => {
+                if (event.data.theme) {
+                    document.documentElement.setAttribute("data-bs-theme", event.data.theme);
+                }
+            });
+</script>
+    </body>
+</html>

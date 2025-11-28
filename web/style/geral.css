@@ -1,0 +1,210 @@
+/* 
+    Created on : 23 de nov. de 2025, 
+    Author     : guilherme campos 11241102449 enzo romao 11241105170
+*/
+html[data-bs-theme="light"] body {
+    background-color: #ffffff !important;
+    color: #000 !important;
+}
+
+html[data-bs-theme="light"] .container {
+    background-color: #f5f5f5 !important;
+    color: #000 !important;
+}
+
+html[data-bs-theme="light"] input {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+html[data-bs-theme="dark"] body {
+    background-color: #581b67 !important;
+    color: #ffffff !important;
+}
+
+html[data-bs-theme="dark"] .container {
+    background-color: #481554 !important;
+    color: #fff !important;
+}
+
+html[data-bs-theme="dark"] input {
+    background-color: #2d0d33 !important;
+    color: #fff !important;
+}
+body {
+    font-family: roboto;
+    background-color: #581b67;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.container2 {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 30px;
+        border-radius: 15px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.container {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 30px;
+        border-radius: 15px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+button,
+.voltar-btn,
+.submit-btn,
+.reset-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .25s ease;
+    letter-spacing: .5px;
+    outline: none;
+}
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6f1d8a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-link:hover {
+    background-color: #581d66;
+    transform: scale(1.03);
+}
+
+.voltar-btn {
+    background: #6b6b6b;
+    color: white;
+}
+
+.voltar-btn:hover {
+    background: #505050;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.submit-btn {
+    background: #6c5ce7; 
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #5947d1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
+}
+
+
+.reset-btn {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.reset-btn:hover {
+    background: #cfcfcf;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+button:active,
+.voltar-btn:active,
+.submit-btn:active,
+.reset-btn:active {
+    transform: scale(0.97);
+}
+.feedcontainer {
+    font-family: roboto;
+    padding: 50px 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo {
+    width: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+}
+.card img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagemfeed {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    width: 320px;
+}
+.erro {
+    width: 100px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+}
+
+
+textarea {
+    width: 415px;
+    height: 100px;
+    resize: none;   
+}
+select{
+    width: 105%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #dcdfe3;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+input[type="text"],input[type="password"],input[type="date"],input[type="email"],
+input[type="number"],input[type="datetime-local"], input[type="file"] {
+ 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdfe3;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-error {
+    border: 2px solid #ff3b3b !important;
+}
+
+.erro-msg {
+    color: #ffb3b3;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 18px;
+}

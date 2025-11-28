@@ -1,0 +1,88 @@
+/* 
+    Created on : 23 de nov. de 2025, 
+    Author     : guilherme campos 11241102449 enzo romao 11241105170
+*/
+
+
+.feed-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* ===== CARTÃO DO EVENTO ===== */
+
+.feed-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.feed-card .card {
+    background: #6c2d7a;          /* Roxo mais claro igual ao perfil */
+    padding: 30px;
+    width: 650px;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.35);
+    transition: transform .20s ease, box-shadow .20s ease;
+}
+
+.feed-card .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.45);
+}
+
+/* ===== IMAGEM DO EVENTO ===== */
+
+.feed-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
+/* ===== TÍTULO ===== */
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* ===== CATEGORIA ===== */
+
+.categoria {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* ===== DESCRIÇÃO ===== */
+
+.descricao {
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* ===== PREÇO ===== */
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* ===== DATA ===== */
+
+.data {
+    font-size: 16px;
+    margin-bottom: 15px;
+}

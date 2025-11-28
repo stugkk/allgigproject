@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 de nov. de 2025, 20:02:30
+    Author     : guilherme campos 11241102449 enzo romao 11241105170
+*/
+
+
+
+
+
+/*
+botao
+ */
+
+[data-bs-theme="dark"] {
+
+    --bs-body-bg: #1A1A3A; 
+    --bs-body-color: #f8f8ff; 
+}
+
+[data-bs-theme="dark"] {
+  
+--bs-tertiary-bg: #581d66; 
+    --bs-tertiary-bg-rgb: 88,27,102;
+}
+
+[data-bs-theme="dark"] {
+    --bs-focus-ring-color: rgba(13, 110, 253, 0.4); 
+}
